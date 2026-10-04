@@ -1,0 +1,26 @@
+# Secrets - NEVER commit these
+config/config.local.php
+config/aws-credentials*
+.env
+.env.*
+*.pem
+*.key
+
+# Dependencies (re-created with: composer install)
+vendor/
+
+# Uploaded or private files
+uploads/*
+!uploads/.gitkeep
+
+# Logs and editor files
+*.log
+.vscode/
+.idea/
+.DS_Store
+
+# Backups and archives
+*.tar.gz
+*.bak
+backups/
+autocare_backup*.sql
